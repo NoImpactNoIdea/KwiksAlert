@@ -1,0 +1,6 @@
+framework module KwiksAlert {
+  umbrella header "KwiksAlert-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "KwiksAlert",
+  "version": "0.1.0",
+  "summary": "A short description of KwiksAlert.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/26388491/KwiksAlert",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "26388491": "noimpactapplications@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/26388491/KwiksAlert.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KwiksAlert/Classes/**/*"
+}
