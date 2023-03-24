@@ -523,7 +523,7 @@ public class KwiksAlert : NSObject {
             self.dismiss()
             
         case .PermissionNeeded://settings
-            UIApplication.shared.open(URL(string: UIApplicationOpenSettingsURLString)!, options: [:], completionHandler: nil)
+            UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
             self.perform(#selector(self.dismiss), with: nil, afterDelay: 0.75)
 
         default: debugPrint("defaults for popup selector")

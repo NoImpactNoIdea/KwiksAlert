@@ -44,25 +44,25 @@
 		10460A9215B6E3C73FF2FDCC927DDDD8 /* Pods-KwiksAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Tests-Info.plist"; sourceTree = "<group>"; };
 		1AAA4BA30DB2282328AF36C8E44A9172 /* Pods-KwiksAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksAlert_Tests.modulemap"; sourceTree = "<group>"; };
 		2EAC7E8FC028B5BA94F202BB5B00AF3D /* Pods-KwiksAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksAlert_Tests-dummy.m"; sourceTree = "<group>"; };
-		2FB97AAA2D5DD3993E989005324CFF84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		2FB97AAA2D5DD3993E989005324CFF84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		3AF3E5FB01A2956759BF001434F5BD67 /* Pods-KwiksAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KwiksAlert; path = KwiksAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KwiksAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4082695D42C0EBA6B9BE8D7B0CD3AB3C /* KwiksAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksAlert.swift; path = Source/KwiksAlert.swift; sourceTree = "<group>"; };
 		49795481901D3E9D174E0C7F6E4AD60E /* Pods-KwiksAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		5229C58BE127787F2837C56B01AEFBDD /* KwiksAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksAlert-Info.plist"; sourceTree = "<group>"; };
-		5242F5EA3866DB9AACDD73161B4287FE /* KwiksAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KwiksAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5242F5EA3866DB9AACDD73161B4287FE /* KwiksAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KwiksAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		5ACE7147EC9343A9CA3427D7806D0FCB /* KwiksAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksAlert-dummy.m"; sourceTree = "<group>"; };
 		689E5D5B269E65E3311D6EA6759074A6 /* KwiksAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksAlert.release.xcconfig; sourceTree = "<group>"; };
 		6D6D6FFB11D3331828C68DE3D0D856F5 /* Pods-KwiksAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		815E7080D4AE6971EB940A06DB8EB864 /* Pods-KwiksAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksAlert_Example.modulemap"; sourceTree = "<group>"; };
-		8335D3A40A20C40D550841DF479A05F5 /* Pods-KwiksAlert_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksAlert_Tests"; path = Pods_KwiksAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8335D3A40A20C40D550841DF479A05F5 /* Pods_KwiksAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		835571DCCA3F4049BD53AF6539D57888 /* KwiksAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksAlert-umbrella.h"; sourceTree = "<group>"; };
 		8706421C9060ED182A794B96805F532B /* Pods-KwiksAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C80DF203A091A895CE4D5D1FB7C6AC4 /* Pods-KwiksAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Example-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F558DC4AE718CFD3E9419844E925B02 /* Pods-KwiksAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A02A09A25F7199B0DF15D0E7E6C9CB7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		A02A09A25F7199B0DF15D0E7E6C9CB7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		A31D4AC736427D1B32752B8153ECCA7C /* Pods-KwiksAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4A0E37C19D2449ABFD5C59464E3B264 /* Pods-KwiksAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7E7C54B91CEBAF654BE6F8F76B7F172 /* Pods-KwiksAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksAlert_Example-dummy.m"; sourceTree = "<group>"; };
@@ -70,7 +70,7 @@
 		B7C9D5B7855A1699AA8C090AB010F6EC /* KwiksAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksAlert-prefix.pch"; sourceTree = "<group>"; };
 		D19C47BFE47DE493C0E7573C3C11236D /* Pods-KwiksAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		D2C359FA0416ED4EF5B2A4CAE32B1FBF /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Source/Helper.swift; sourceTree = "<group>"; };
-		DEDB649949671C7CA89EE120740D948D /* Pods-KwiksAlert_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksAlert_Example"; path = Pods_KwiksAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DEDB649949671C7CA89EE120740D948D /* Pods_KwiksAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57AFA32B3F904A03CC2ACDEDEFA8F94 /* Pods-KwiksAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -137,9 +137,9 @@
 		43DD445D93B34FBAD7CB3FD9F28FE6D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert */,
-				DEDB649949671C7CA89EE120740D948D /* Pods-KwiksAlert_Example */,
-				8335D3A40A20C40D550841DF479A05F5 /* Pods-KwiksAlert_Tests */,
+				3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert.framework */,
+				DEDB649949671C7CA89EE120740D948D /* Pods_KwiksAlert_Example.framework */,
+				8335D3A40A20C40D550841DF479A05F5 /* Pods_KwiksAlert_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -271,7 +271,7 @@
 			);
 			name = KwiksAlert;
 			productName = KwiksAlert;
-			productReference = 3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert */;
+			productReference = 3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B95B8CD2D08A6F32C5EFE423A179A88C /* Pods-KwiksAlert_Example */ = {
@@ -290,7 +290,7 @@
 			);
 			name = "Pods-KwiksAlert_Example";
 			productName = Pods_KwiksAlert_Example;
-			productReference = DEDB649949671C7CA89EE120740D948D /* Pods-KwiksAlert_Example */;
+			productReference = DEDB649949671C7CA89EE120740D948D /* Pods_KwiksAlert_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3ACD37D97C2417D79289964593C806B /* Pods-KwiksAlert_Tests */ = {
@@ -309,7 +309,7 @@
 			);
 			name = "Pods-KwiksAlert_Tests";
 			productName = Pods_KwiksAlert_Tests;
-			productReference = 8335D3A40A20C40D550841DF479A05F5 /* Pods-KwiksAlert_Tests */;
+			productReference = 8335D3A40A20C40D550841DF479A05F5 /* Pods_KwiksAlert_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -319,7 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1400;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -415,7 +415,6 @@
 			baseConfigurationReference = E57AFA32B3F904A03CC2ACDEDEFA8F94 /* Pods-KwiksAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -449,7 +448,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 077635BC1FBF76751D9D94EF634EF059 /* KwiksAlert.debug.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -482,7 +480,6 @@
 			baseConfigurationReference = A4A0E37C19D2449ABFD5C59464E3B264 /* Pods-KwiksAlert_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -547,6 +544,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -613,6 +611,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -633,8 +632,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -644,7 +642,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 689E5D5B269E65E3311D6EA6759074A6 /* KwiksAlert.release.xcconfig */;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -678,7 +675,6 @@
 			baseConfigurationReference = 6D6D6FFB11D3331828C68DE3D0D856F5 /* Pods-KwiksAlert_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -712,7 +708,6 @@
 			baseConfigurationReference = A31D4AC736427D1B32752B8153ECCA7C /* Pods-KwiksAlert_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
