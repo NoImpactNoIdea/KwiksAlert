@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/26388491/KwiksAlert'
+  s.homepage         = 'https://github.com/NoImpactNoIdea/KwiksAlert.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
   s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksAlert.git', :tag => s.version.to_s }

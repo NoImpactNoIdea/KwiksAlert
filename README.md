@@ -22,7 +22,7 @@ pod 'KwiksAlert'
 
 ## Author
 
-26388491, charlie@kwiks.com
+KWIKS CTO, charlie@kwiks.com
 
 ## License
 
