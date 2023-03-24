@@ -9,7 +9,6 @@
 Pod::Spec.new do |s|
   s.name             = 'KwiksAlert'
   s.version          = '0.1.1'
-  s.description      = "Simple library to manage all of the popups inside the Kwiks iOS platform through a simple cocopods installation."
   s.summary          = 'Welcome to KwiksAlert. KwiksAlert was designed as a simple solution to manage all client facing popups.'
 
 # This description is used to generate tags and improve search results.
@@ -18,9 +17,9 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.description      = "so here i need a really long description because for some reason thios thing will not go unless I have a description which is wild."
+#TODO: Add long description of the pod here.
+#                       DESC
 
   s.homepage         = 'https://github.com/NoImpactNoIdea/KwiksAlert.git'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
