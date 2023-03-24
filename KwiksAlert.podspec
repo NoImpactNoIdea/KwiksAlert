@@ -27,6 +27,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksAlert.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
+  s.swift_versions = "5.7"
 
 #  s.source_files = 'Classes/**/*.swift'
   s.source_files = 'Source/**/*.swift'
