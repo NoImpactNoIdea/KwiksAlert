@@ -33,6 +33,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("removing git ignore")
         self.view.addSubview(self.testButton)
         self.testButton.centerXAnchor.constraint(equalTo: self.view.centerXAnchor).isActive = true
         self.testButton.centerYAnchor.constraint(equalTo: self.view.centerYAnchor).isActive = true
