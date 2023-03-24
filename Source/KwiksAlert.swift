@@ -129,7 +129,8 @@ public class KwiksAlert : NSObject {
             self.rootController = presentingViewController
             self.popupType = popupType
             
-            if let _ = UIFont(name: FontKit().segoeRegular, size: 16) {
+            if let checkMe = UIFont(name: FontKit().segoeRegular, size: 16) {
+                print("CHECK ME IN HERE: \(checkMe)")
                 //nil check to see if fonts were loaded into the system yet
             } else {
                 //global font grab to avoid having the recipient call this in the app delegate - only needs to be called once though ever
@@ -523,7 +524,6 @@ public class KwiksAlert : NSObject {
             self.dismiss()
             
         case .PermissionNeeded://settings
-//            UIApplication.shared.open(URL(string: UIApplication.openSettingsURLString)!, options: [:], completionHandler: nil)
             self.perform(#selector(self.dismiss), with: nil, afterDelay: 0.75)
 
         default: debugPrint("defaults for popup selector")

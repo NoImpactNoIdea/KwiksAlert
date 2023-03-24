@@ -29,14 +29,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '15.0'
   s.swift_versions = "5.7"
 
-#  s.source_files = 'Classes/**/*.swift'
   s.source_files = 'Source/**/*.swift'
   # s.resource_bundles = {KwiksAlert/Classes/**/*
   #   'KwiksAlert' => ['KwiksAlert/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
+   s.frameworks = 'UIKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
 
