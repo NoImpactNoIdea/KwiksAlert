@@ -8,42 +8,42 @@
 import UIKit
 import Foundation
 
-public enum PopupType{
-    case UpdateKwiks
-    case AgeRestriction
-    case SendingFailed
-    case PermissionNeeded
-    case UploadFailed
-    case DownloadFailed
-    case VerificationFailed
-    case VideoResolutionLow
-    case FileNotSupported
-    case VideoNotSupported
-    case UnknownError
-    case MaximumPostsReached
-    case AccountRestricted
-    case MaxTagReached
-    case LargeImage
-    case UserAccountNotFound
-    case LoginFailed
-    case AccessDenied
-    case SoundNotWorking
-    case EmailNotVerified
-    case EmailVerified
-    case VerifyPhoneNumber
-    case PhoneNumberVerified
-    case IncorrectPassword
-    case IncorrectUsername
-    case FailedTransaction
-    case CardNotSupported
-    case InsufficientBalanceHard
-    case InsufficientBalanceLight
-    case PaymentDeclined
-    case LoginToAccess
-
-}
-
 public class KwiksAlert : NSObject {
+    
+    public enum PopupType{
+        case UpdateKwiks
+        case AgeRestriction
+        case SendingFailed
+        case PermissionNeeded
+        case UploadFailed
+        case DownloadFailed
+        case VerificationFailed
+        case VideoResolutionLow
+        case FileNotSupported
+        case VideoNotSupported
+        case UnknownError
+        case MaximumPostsReached
+        case AccountRestricted
+        case MaxTagReached
+        case LargeImage
+        case UserAccountNotFound
+        case LoginFailed
+        case AccessDenied
+        case SoundNotWorking
+        case EmailNotVerified
+        case EmailVerified
+        case VerifyPhoneNumber
+        case PhoneNumberVerified
+        case IncorrectPassword
+        case IncorrectUsername
+        case FailedTransaction
+        case CardNotSupported
+        case InsufficientBalanceHard
+        case InsufficientBalanceLight
+        case PaymentDeclined
+        case LoginToAccess
+
+    }
        
     public var rootController: UIViewController?
     public var popupType: PopupType?
@@ -167,7 +167,7 @@ public class KwiksAlert : NSObject {
         }
     }
     
-    func presentPopup() {
+    public func presentPopup() {
         
         //always suceeds
         if let root = self.rootController {
@@ -205,7 +205,7 @@ public class KwiksAlert : NSObject {
         }
     }
     
-    func runLogic(root : UIViewController) {
+    public func runLogic(root : UIViewController) {
         
         self.confirmationButton.addTarget(self, action: #selector(self.handleAction(sender:)), for: .touchUpInside)
         
@@ -236,7 +236,7 @@ public class KwiksAlert : NSObject {
         }
     }
     
-    func copyDecision(popupType : PopupType) {
+    public func copyDecision(popupType : PopupType) {
         
         switch popupType {
        
@@ -530,7 +530,7 @@ public class KwiksAlert : NSObject {
         }
     }
     
-    @objc func dismiss() {
+    @objc public func dismiss() {
         
         if let root = self.rootController {
 

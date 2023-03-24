@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KwiksAlert'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'Welcome to KwiksAlert. KwiksAlert was designed as a simple solution to manage all client facing popups.'
 
 # This description is used to generate tags and improve search results.
@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
   s.swift_versions = "5.7"
 
   s.source_files = 'Source/**/*.swift'
-  # s.resource_bundles = {KwiksAlert/Classes/**/*
-  #   'KwiksAlert' => ['KwiksAlert/Assets/*.png']
-  # }
+   s.resource_bundles = {KwiksAlert/Classes/**/*
+     'KwiksAlert' => ['KwiksAlert/Assets/*.png']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
    s.frameworks = 'UIKit'
