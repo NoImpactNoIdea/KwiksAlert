@@ -7,78 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D84AE8CA45365BDA1FEACE9959EC1C0 /* KwiksAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA5B2BD2E26B96279BFE0AC7F23DEE97 /* KwiksAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1D9E3A51C9F309CF37C90CB16CC8887A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0997717320F41BD2222CF52B257ADD00 /* KwiksAlert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 835571DCCA3F4049BD53AF6539D57888 /* KwiksAlert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2C6CC725A2FA5E2EE8DEAFEEBC6EB4C8 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C359FA0416ED4EF5B2A4CAE32B1FBF /* Helper.swift */; };
 		3CEED1F5F5FBFC3BFFD13007A2E718A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		43520A197B58321ADDD1F7043AB75C04 /* KwiksAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE7147EC9343A9CA3427D7806D0FCB /* KwiksAlert-dummy.m */; };
+		56E0D82AE36C47ED6B440A8E17A9FCF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		6E39A716AF7750EA0124E191FFCE9B59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		7B61B76F62199F9CE9B6C24C79A0470D /* KwiksAlert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDAE9B38F0CF30E22079072D98CD6A3 /* KwiksAlert-dummy.m */; };
 		7C4BD8EC29EB6BF0B2AAF508ABBE0FBF /* Pods-KwiksAlert_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A7E7C54B91CEBAF654BE6F8F76B7F172 /* Pods-KwiksAlert_Example-dummy.m */; };
 		BD693FF826F2096D0A9488DB57929CA4 /* Pods-KwiksAlert_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EAC7E8FC028B5BA94F202BB5B00AF3D /* Pods-KwiksAlert_Tests-dummy.m */; };
+		C3F581A66A34762E8FAB856DDF342AD3 /* KwiksAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4082695D42C0EBA6B9BE8D7B0CD3AB3C /* KwiksAlert.swift */; };
 		DAF5CF6228CF09BFFA8D2BBCE53C2D92 /* Pods-KwiksAlert_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3AF3E5FB01A2956759BF001434F5BD67 /* Pods-KwiksAlert_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E365517029CCAD8300F3D37E /* KwiksAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E365516F29CCAD8300F3D37E /* KwiksAlert.swift */; };
-		E36F66D529CCC70A00B6F6D7 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E36F66D429CCC70A00B6F6D7 /* Media.xcassets */; };
-		E36F66DE29CCC76D00B6F6D7 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E36F66DD29CCC76D00B6F6D7 /* Helper.swift */; };
-		E36F66E229CCC86800B6F6D7 /* k_logo_rounded@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66DF29CCC86800B6F6D7 /* k_logo_rounded@1x.png */; };
-		E36F66E329CCC86800B6F6D7 /* k_logo_rounded@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66E029CCC86800B6F6D7 /* k_logo_rounded@3x.png */; };
-		E36F66E429CCC86800B6F6D7 /* k_logo_rounded@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66E129CCC86800B6F6D7 /* k_logo_rounded@2x.png */; };
-		E36F66EB29CCCB4500B6F6D7 /* SegoeBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E36F66E729CCCB4500B6F6D7 /* SegoeBold.ttf */; };
-		E36F66EC29CCCB4500B6F6D7 /* SegoeItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E36F66E829CCCB4500B6F6D7 /* SegoeItalic.ttf */; };
-		E36F66ED29CCCB4500B6F6D7 /* SegoeBoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E36F66E929CCCB4500B6F6D7 /* SegoeBoldItalic.ttf */; };
-		E36F66EE29CCCB4500B6F6D7 /* SegoeRegular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E36F66EA29CCCB4500B6F6D7 /* SegoeRegular.ttf */; };
-		E36F66F229CD1CF300B6F6D7 /* incorrect_password_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66EF29CD1CF300B6F6D7 /* incorrect_password_icon@2x.png */; };
-		E36F66F329CD1CF300B6F6D7 /* incorrect_password_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66F029CD1CF300B6F6D7 /* incorrect_password_icon@3x.png */; };
-		E36F66F429CD1CF300B6F6D7 /* incorrect_password_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66F129CD1CF300B6F6D7 /* incorrect_password_icon@1x.png */; };
-		E36F66F829CD1CFB00B6F6D7 /* email_verified_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66F529CD1CFB00B6F6D7 /* email_verified_icon@1x.png */; };
-		E36F66F929CD1CFB00B6F6D7 /* email_verified_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66F629CD1CFB00B6F6D7 /* email_verified_icon@2x.png */; };
-		E36F66FA29CD1CFB00B6F6D7 /* email_verified_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66F729CD1CFB00B6F6D7 /* email_verified_icon@3x.png */; };
-		E36F66FE29CD1D0200B6F6D7 /* upload_cloud_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66FB29CD1D0200B6F6D7 /* upload_cloud_icon@3x.png */; };
-		E36F66FF29CD1D0200B6F6D7 /* upload_cloud_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66FC29CD1D0200B6F6D7 /* upload_cloud_icon@2x.png */; };
-		E36F670029CD1D0200B6F6D7 /* upload_cloud_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F66FD29CD1D0200B6F6D7 /* upload_cloud_icon@1x.png */; };
-		E36F670429CD1D0800B6F6D7 /* file_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670129CD1D0800B6F6D7 /* file_icon@1x.png */; };
-		E36F670529CD1D0800B6F6D7 /* file_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670229CD1D0800B6F6D7 /* file_icon@3x.png */; };
-		E36F670629CD1D0800B6F6D7 /* file_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670329CD1D0800B6F6D7 /* file_icon@2x.png */; };
-		E36F670A29CD1D0E00B6F6D7 /* email_not_verified_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670729CD1D0E00B6F6D7 /* email_not_verified_icon@1x.png */; };
-		E36F670B29CD1D0E00B6F6D7 /* email_not_verified_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670829CD1D0E00B6F6D7 /* email_not_verified_icon@2x.png */; };
-		E36F670C29CD1D0E00B6F6D7 /* email_not_verified_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670929CD1D0E00B6F6D7 /* email_not_verified_icon@3x.png */; };
-		E36F671029CD1D1400B6F6D7 /* download_cloud_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670D29CD1D1400B6F6D7 /* download_cloud_icon@3x.png */; };
-		E36F671129CD1D1400B6F6D7 /* download_cloud_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670E29CD1D1400B6F6D7 /* download_cloud_icon@1x.png */; };
-		E36F671229CD1D1400B6F6D7 /* download_cloud_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F670F29CD1D1400B6F6D7 /* download_cloud_icon@2x.png */; };
-		E36F671629CD1D1A00B6F6D7 /* email_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671329CD1D1900B6F6D7 /* email_icon@3x.png */; };
-		E36F671729CD1D1A00B6F6D7 /* email_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671429CD1D1900B6F6D7 /* email_icon@1x.png */; };
-		E36F671829CD1D1A00B6F6D7 /* email_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671529CD1D1900B6F6D7 /* email_icon@2x.png */; };
-		E36F671C29CD1D2000B6F6D7 /* card_not_supported_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671929CD1D2000B6F6D7 /* card_not_supported_icon@3x.png */; };
-		E36F671D29CD1D2000B6F6D7 /* card_not_supported_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671A29CD1D2000B6F6D7 /* card_not_supported_icon@1x.png */; };
-		E36F671E29CD1D2000B6F6D7 /* card_not_supported_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671B29CD1D2000B6F6D7 /* card_not_supported_icon@2x.png */; };
-		E36F672229CD1D2800B6F6D7 /* warning_hollow_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F671F29CD1D2800B6F6D7 /* warning_hollow_icon@2x.png */; };
-		E36F672329CD1D2800B6F6D7 /* warning_hollow_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672029CD1D2800B6F6D7 /* warning_hollow_icon@1x.png */; };
-		E36F672429CD1D2800B6F6D7 /* warning_hollow_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672129CD1D2800B6F6D7 /* warning_hollow_icon@3x.png */; };
-		E36F672829CD1D3700B6F6D7 /* money_wallet_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672529CD1D3600B6F6D7 /* money_wallet_icon@1x.png */; };
-		E36F672929CD1D3700B6F6D7 /* money_wallet_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672629CD1D3600B6F6D7 /* money_wallet_icon@2x.png */; };
-		E36F672A29CD1D3700B6F6D7 /* money_wallet_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672729CD1D3700B6F6D7 /* money_wallet_icon@3x.png */; };
-		E36F672E29CD1D3E00B6F6D7 /* phone_number_verified_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672B29CD1D3E00B6F6D7 /* phone_number_verified_icon@1x.png */; };
-		E36F672F29CD1D3E00B6F6D7 /* phone_number_verified_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672C29CD1D3E00B6F6D7 /* phone_number_verified_icon@2x.png */; };
-		E36F673029CD1D3E00B6F6D7 /* phone_number_verified_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F672D29CD1D3E00B6F6D7 /* phone_number_verified_icon@3x.png */; };
-		E36F673429CD1D4300B6F6D7 /* hard_fail_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673129CD1D4300B6F6D7 /* hard_fail_icon@2x.png */; };
-		E36F673529CD1D4300B6F6D7 /* hard_fail_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673229CD1D4300B6F6D7 /* hard_fail_icon@3x.png */; };
-		E36F673629CD1D4300B6F6D7 /* hard_fail_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673329CD1D4300B6F6D7 /* hard_fail_icon@1x.png */; };
-		E36F673A29CD212D00B6F6D7 /* sound_broken_icon@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673729CD212D00B6F6D7 /* sound_broken_icon@1x.png */; };
-		E36F673B29CD212D00B6F6D7 /* sound_broken_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673829CD212D00B6F6D7 /* sound_broken_icon@2x.png */; };
-		E36F673C29CD212D00B6F6D7 /* sound_broken_icon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673929CD212D00B6F6D7 /* sound_broken_icon@3x.png */; };
-		E36F674029CD220A00B6F6D7 /* phone_not_verified@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673D29CD220A00B6F6D7 /* phone_not_verified@2x.png */; };
-		E36F674129CD220A00B6F6D7 /* phone_not_verified@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673E29CD220A00B6F6D7 /* phone_not_verified@3x.png */; };
-		E36F674229CD220A00B6F6D7 /* phone_not_verified@1x.png in Resources */ = {isa = PBXBuildFile; fileRef = E36F673F29CD220A00B6F6D7 /* phone_not_verified@1x.png */; };
 		F19CAE79FD97519DF74C8A7865AC668D /* Pods-KwiksAlert_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3388DFBA9902664A2C9A61FEEECA76C /* Pods-KwiksAlert_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		103955E928185EA9907C124442F89446 /* PBXContainerItemProxy */ = {
+		7679EBC9C0060E19E485A55A1EA76BE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B95B8CD2D08A6F32C5EFE423A179A88C;
 			remoteInfo = "Pods-KwiksAlert_Example";
 		};
-		BB47CAC568ECEC51C3CACEFC4C84F011 /* PBXContainerItemProxy */ = {
+		CD4BF36242A235E344E4497D5F76F811 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -88,106 +38,56 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		00146F485C81A7A6417914C8CF98DAC1 /* KwiksAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KwiksAlert.modulemap; sourceTree = "<group>"; };
 		054CB143DD78BA82CCC3B69275EA2B4C /* Pods-KwiksAlert_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KwiksAlert_Example-frameworks.sh"; sourceTree = "<group>"; };
+		077635BC1FBF76751D9D94EF634EF059 /* KwiksAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksAlert.debug.xcconfig; sourceTree = "<group>"; };
 		10460A9215B6E3C73FF2FDCC927DDDD8 /* Pods-KwiksAlert_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Tests-Info.plist"; sourceTree = "<group>"; };
 		1AAA4BA30DB2282328AF36C8E44A9172 /* Pods-KwiksAlert_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksAlert_Tests.modulemap"; sourceTree = "<group>"; };
 		2EAC7E8FC028B5BA94F202BB5B00AF3D /* Pods-KwiksAlert_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksAlert_Tests-dummy.m"; sourceTree = "<group>"; };
+		2FB97AAA2D5DD3993E989005324CFF84 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		3AF3E5FB01A2956759BF001434F5BD67 /* Pods-KwiksAlert_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksAlert_Tests-umbrella.h"; sourceTree = "<group>"; };
-		3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KwiksAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		424E408787D33CD942B29ED0C05698AC /* KwiksAlert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KwiksAlert.modulemap; sourceTree = "<group>"; };
+		3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = KwiksAlert; path = KwiksAlert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4082695D42C0EBA6B9BE8D7B0CD3AB3C /* KwiksAlert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KwiksAlert.swift; path = Source/KwiksAlert.swift; sourceTree = "<group>"; };
 		49795481901D3E9D174E0C7F6E4AD60E /* Pods-KwiksAlert_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		531BA18DFB1AE7B6F0BC133583C1081C /* KwiksAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = KwiksAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		6C0C10DD71D0926A19B64CAA7CA1A3A1 /* KwiksAlert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksAlert.debug.xcconfig; sourceTree = "<group>"; };
+		5229C58BE127787F2837C56B01AEFBDD /* KwiksAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksAlert-Info.plist"; sourceTree = "<group>"; };
+		5242F5EA3866DB9AACDD73161B4287FE /* KwiksAlert.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = KwiksAlert.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		5ACE7147EC9343A9CA3427D7806D0FCB /* KwiksAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksAlert-dummy.m"; sourceTree = "<group>"; };
+		689E5D5B269E65E3311D6EA6759074A6 /* KwiksAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksAlert.release.xcconfig; sourceTree = "<group>"; };
 		6D6D6FFB11D3331828C68DE3D0D856F5 /* Pods-KwiksAlert_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		815E7080D4AE6971EB940A06DB8EB864 /* Pods-KwiksAlert_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KwiksAlert_Example.modulemap"; sourceTree = "<group>"; };
-		8335D3A40A20C40D550841DF479A05F5 /* Pods_KwiksAlert_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8335D3A40A20C40D550841DF479A05F5 /* Pods-KwiksAlert_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksAlert_Tests"; path = Pods_KwiksAlert_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		835571DCCA3F4049BD53AF6539D57888 /* KwiksAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksAlert-umbrella.h"; sourceTree = "<group>"; };
 		8706421C9060ED182A794B96805F532B /* Pods-KwiksAlert_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksAlert_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C80DF203A091A895CE4D5D1FB7C6AC4 /* Pods-KwiksAlert_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Example-Info.plist"; sourceTree = "<group>"; };
-		94205F4847EBF2935AA37F388856B9C9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9CDAE9B38F0CF30E22079072D98CD6A3 /* KwiksAlert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KwiksAlert-dummy.m"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F558DC4AE718CFD3E9419844E925B02 /* Pods-KwiksAlert_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KwiksAlert_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A02A09A25F7199B0DF15D0E7E6C9CB7B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		A31D4AC736427D1B32752B8153ECCA7C /* Pods-KwiksAlert_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A4A0E37C19D2449ABFD5C59464E3B264 /* Pods-KwiksAlert_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A7E7C54B91CEBAF654BE6F8F76B7F172 /* Pods-KwiksAlert_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KwiksAlert_Example-dummy.m"; sourceTree = "<group>"; };
 		B3388DFBA9902664A2C9A61FEEECA76C /* Pods-KwiksAlert_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KwiksAlert_Example-umbrella.h"; sourceTree = "<group>"; };
-		C28015AB0D034619A794F686E5496C30 /* KwiksAlert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KwiksAlert.release.xcconfig; sourceTree = "<group>"; };
+		B7C9D5B7855A1699AA8C090AB010F6EC /* KwiksAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksAlert-prefix.pch"; sourceTree = "<group>"; };
 		D19C47BFE47DE493C0E7573C3C11236D /* Pods-KwiksAlert_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KwiksAlert_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		D5C71AF9FB24874C6969E600B653D60A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		D5EBCC9EC0465CB959DD210DC7C15FBD /* KwiksAlert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "KwiksAlert-Info.plist"; sourceTree = "<group>"; };
-		DEDB649949671C7CA89EE120740D948D /* Pods_KwiksAlert_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KwiksAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E1F9D187DBC897583FAE18A2BB78CD6F /* KwiksAlert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksAlert-prefix.pch"; sourceTree = "<group>"; };
-		E365516F29CCAD8300F3D37E /* KwiksAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KwiksAlert.swift; sourceTree = "<group>"; };
-		E36F66D429CCC70A00B6F6D7 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
-		E36F66DD29CCC76D00B6F6D7 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
-		E36F66DF29CCC86800B6F6D7 /* k_logo_rounded@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k_logo_rounded@1x.png"; sourceTree = "<group>"; };
-		E36F66E029CCC86800B6F6D7 /* k_logo_rounded@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k_logo_rounded@3x.png"; sourceTree = "<group>"; };
-		E36F66E129CCC86800B6F6D7 /* k_logo_rounded@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "k_logo_rounded@2x.png"; sourceTree = "<group>"; };
-		E36F66E729CCCB4500B6F6D7 /* SegoeBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeBold.ttf; sourceTree = "<group>"; };
-		E36F66E829CCCB4500B6F6D7 /* SegoeItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeItalic.ttf; sourceTree = "<group>"; };
-		E36F66E929CCCB4500B6F6D7 /* SegoeBoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeBoldItalic.ttf; sourceTree = "<group>"; };
-		E36F66EA29CCCB4500B6F6D7 /* SegoeRegular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = SegoeRegular.ttf; sourceTree = "<group>"; };
-		E36F66EF29CD1CF300B6F6D7 /* incorrect_password_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "incorrect_password_icon@2x.png"; sourceTree = "<group>"; };
-		E36F66F029CD1CF300B6F6D7 /* incorrect_password_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "incorrect_password_icon@3x.png"; sourceTree = "<group>"; };
-		E36F66F129CD1CF300B6F6D7 /* incorrect_password_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "incorrect_password_icon@1x.png"; sourceTree = "<group>"; };
-		E36F66F529CD1CFB00B6F6D7 /* email_verified_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_verified_icon@1x.png"; sourceTree = "<group>"; };
-		E36F66F629CD1CFB00B6F6D7 /* email_verified_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_verified_icon@2x.png"; sourceTree = "<group>"; };
-		E36F66F729CD1CFB00B6F6D7 /* email_verified_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_verified_icon@3x.png"; sourceTree = "<group>"; };
-		E36F66FB29CD1D0200B6F6D7 /* upload_cloud_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_cloud_icon@3x.png"; sourceTree = "<group>"; };
-		E36F66FC29CD1D0200B6F6D7 /* upload_cloud_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_cloud_icon@2x.png"; sourceTree = "<group>"; };
-		E36F66FD29CD1D0200B6F6D7 /* upload_cloud_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "upload_cloud_icon@1x.png"; sourceTree = "<group>"; };
-		E36F670129CD1D0800B6F6D7 /* file_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@1x.png"; sourceTree = "<group>"; };
-		E36F670229CD1D0800B6F6D7 /* file_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@3x.png"; sourceTree = "<group>"; };
-		E36F670329CD1D0800B6F6D7 /* file_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "file_icon@2x.png"; sourceTree = "<group>"; };
-		E36F670729CD1D0E00B6F6D7 /* email_not_verified_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_not_verified_icon@1x.png"; sourceTree = "<group>"; };
-		E36F670829CD1D0E00B6F6D7 /* email_not_verified_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_not_verified_icon@2x.png"; sourceTree = "<group>"; };
-		E36F670929CD1D0E00B6F6D7 /* email_not_verified_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_not_verified_icon@3x.png"; sourceTree = "<group>"; };
-		E36F670D29CD1D1400B6F6D7 /* download_cloud_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_cloud_icon@3x.png"; sourceTree = "<group>"; };
-		E36F670E29CD1D1400B6F6D7 /* download_cloud_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_cloud_icon@1x.png"; sourceTree = "<group>"; };
-		E36F670F29CD1D1400B6F6D7 /* download_cloud_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "download_cloud_icon@2x.png"; sourceTree = "<group>"; };
-		E36F671329CD1D1900B6F6D7 /* email_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_icon@3x.png"; sourceTree = "<group>"; };
-		E36F671429CD1D1900B6F6D7 /* email_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_icon@1x.png"; sourceTree = "<group>"; };
-		E36F671529CD1D1900B6F6D7 /* email_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "email_icon@2x.png"; sourceTree = "<group>"; };
-		E36F671929CD1D2000B6F6D7 /* card_not_supported_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_not_supported_icon@3x.png"; sourceTree = "<group>"; };
-		E36F671A29CD1D2000B6F6D7 /* card_not_supported_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_not_supported_icon@1x.png"; sourceTree = "<group>"; };
-		E36F671B29CD1D2000B6F6D7 /* card_not_supported_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "card_not_supported_icon@2x.png"; sourceTree = "<group>"; };
-		E36F671F29CD1D2800B6F6D7 /* warning_hollow_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_hollow_icon@2x.png"; sourceTree = "<group>"; };
-		E36F672029CD1D2800B6F6D7 /* warning_hollow_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_hollow_icon@1x.png"; sourceTree = "<group>"; };
-		E36F672129CD1D2800B6F6D7 /* warning_hollow_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "warning_hollow_icon@3x.png"; sourceTree = "<group>"; };
-		E36F672529CD1D3600B6F6D7 /* money_wallet_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_wallet_icon@1x.png"; sourceTree = "<group>"; };
-		E36F672629CD1D3600B6F6D7 /* money_wallet_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_wallet_icon@2x.png"; sourceTree = "<group>"; };
-		E36F672729CD1D3700B6F6D7 /* money_wallet_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "money_wallet_icon@3x.png"; sourceTree = "<group>"; };
-		E36F672B29CD1D3E00B6F6D7 /* phone_number_verified_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_verified_icon@1x.png"; sourceTree = "<group>"; };
-		E36F672C29CD1D3E00B6F6D7 /* phone_number_verified_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_verified_icon@2x.png"; sourceTree = "<group>"; };
-		E36F672D29CD1D3E00B6F6D7 /* phone_number_verified_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_number_verified_icon@3x.png"; sourceTree = "<group>"; };
-		E36F673129CD1D4300B6F6D7 /* hard_fail_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hard_fail_icon@2x.png"; sourceTree = "<group>"; };
-		E36F673229CD1D4300B6F6D7 /* hard_fail_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hard_fail_icon@3x.png"; sourceTree = "<group>"; };
-		E36F673329CD1D4300B6F6D7 /* hard_fail_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hard_fail_icon@1x.png"; sourceTree = "<group>"; };
-		E36F673729CD212D00B6F6D7 /* sound_broken_icon@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound_broken_icon@1x.png"; sourceTree = "<group>"; };
-		E36F673829CD212D00B6F6D7 /* sound_broken_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound_broken_icon@2x.png"; sourceTree = "<group>"; };
-		E36F673929CD212D00B6F6D7 /* sound_broken_icon@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sound_broken_icon@3x.png"; sourceTree = "<group>"; };
-		E36F673D29CD220A00B6F6D7 /* phone_not_verified@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_not_verified@2x.png"; sourceTree = "<group>"; };
-		E36F673E29CD220A00B6F6D7 /* phone_not_verified@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_not_verified@3x.png"; sourceTree = "<group>"; };
-		E36F673F29CD220A00B6F6D7 /* phone_not_verified@1x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "phone_not_verified@1x.png"; sourceTree = "<group>"; };
+		D2C359FA0416ED4EF5B2A4CAE32B1FBF /* Helper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Source/Helper.swift; sourceTree = "<group>"; };
+		DEDB649949671C7CA89EE120740D948D /* Pods-KwiksAlert_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-KwiksAlert_Example"; path = Pods_KwiksAlert_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E57AFA32B3F904A03CC2ACDEDEFA8F94 /* Pods-KwiksAlert_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KwiksAlert_Example.release.xcconfig"; sourceTree = "<group>"; };
-		FA5B2BD2E26B96279BFE0AC7F23DEE97 /* KwiksAlert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KwiksAlert-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		00C6277D7D7250A9C4718CBA1A7D8522 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1D9E3A51C9F309CF37C90CB16CC8887A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0F54507DDB501DC1B700DCE3BE1DF485 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				3CEED1F5F5FBFC3BFFD13007A2E718A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3BF197B06DF6E8F55E969257C078B1D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E0D82AE36C47ED6B440A8E17A9FCF6 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -202,15 +102,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0DAFD82D1B65FABB5A504DC67E7563CA /* KwiksAlert */ = {
+		381547B593CFEED8798306FD78A6C463 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E365516E29CCA9B000F3D37E /* Source */,
-				4F7A2BB7F5A5C41C274501E46BD2011D /* Pod */,
-				947C347BC9F2E8FE50FDF31659D10149 /* Support Files */,
+				00146F485C81A7A6417914C8CF98DAC1 /* KwiksAlert.modulemap */,
+				5ACE7147EC9343A9CA3427D7806D0FCB /* KwiksAlert-dummy.m */,
+				5229C58BE127787F2837C56B01AEFBDD /* KwiksAlert-Info.plist */,
+				B7C9D5B7855A1699AA8C090AB010F6EC /* KwiksAlert-prefix.pch */,
+				835571DCCA3F4049BD53AF6539D57888 /* KwiksAlert-umbrella.h */,
+				077635BC1FBF76751D9D94EF634EF059 /* KwiksAlert.debug.xcconfig */,
+				689E5D5B269E65E3311D6EA6759074A6 /* KwiksAlert.release.xcconfig */,
 			);
-			name = KwiksAlert;
-			path = ../..;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KwiksAlert";
+			sourceTree = "<group>";
+		};
+		3B7C7028F3557322E5BAD5AF2FCEADD8 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86D8D2024C21998A801F4D1F20B4F927 /* KwiksAlert */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		43673520EC8768124C7DE404129A92D8 /* Targets Support Files */ = {
@@ -225,21 +137,11 @@
 		43DD445D93B34FBAD7CB3FD9F28FE6D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert.framework */,
-				DEDB649949671C7CA89EE120740D948D /* Pods_KwiksAlert_Example.framework */,
-				8335D3A40A20C40D550841DF479A05F5 /* Pods_KwiksAlert_Tests.framework */,
+				3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert */,
+				DEDB649949671C7CA89EE120740D948D /* Pods-KwiksAlert_Example */,
+				8335D3A40A20C40D550841DF479A05F5 /* Pods-KwiksAlert_Tests */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		4F7A2BB7F5A5C41C274501E46BD2011D /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				531BA18DFB1AE7B6F0BC133583C1081C /* KwiksAlert.podspec */,
-				94205F4847EBF2935AA37F388856B9C9 /* LICENSE */,
-				D5C71AF9FB24874C6969E600B653D60A /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -267,34 +169,23 @@
 			path = "Target Support Files/Pods-KwiksAlert_Example";
 			sourceTree = "<group>";
 		};
-		947C347BC9F2E8FE50FDF31659D10149 /* Support Files */ = {
+		86D8D2024C21998A801F4D1F20B4F927 /* KwiksAlert */ = {
 			isa = PBXGroup;
 			children = (
-				424E408787D33CD942B29ED0C05698AC /* KwiksAlert.modulemap */,
-				9CDAE9B38F0CF30E22079072D98CD6A3 /* KwiksAlert-dummy.m */,
-				D5EBCC9EC0465CB959DD210DC7C15FBD /* KwiksAlert-Info.plist */,
-				E1F9D187DBC897583FAE18A2BB78CD6F /* KwiksAlert-prefix.pch */,
-				FA5B2BD2E26B96279BFE0AC7F23DEE97 /* KwiksAlert-umbrella.h */,
-				6C0C10DD71D0926A19B64CAA7CA1A3A1 /* KwiksAlert.debug.xcconfig */,
-				C28015AB0D034619A794F686E5496C30 /* KwiksAlert.release.xcconfig */,
+				D2C359FA0416ED4EF5B2A4CAE32B1FBF /* Helper.swift */,
+				4082695D42C0EBA6B9BE8D7B0CD3AB3C /* KwiksAlert.swift */,
+				D3D225964F32AC647C3F16586B3C79D3 /* Pod */,
+				381547B593CFEED8798306FD78A6C463 /* Support Files */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/KwiksAlert";
-			sourceTree = "<group>";
-		};
-		A7CDD6169F6478CE5653D32D9CA3F4F6 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				0DAFD82D1B65FABB5A504DC67E7563CA /* KwiksAlert */,
-			);
-			name = "Development Pods";
+			name = KwiksAlert;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				A7CDD6169F6478CE5653D32D9CA3F4F6 /* Development Pods */,
+				3B7C7028F3557322E5BAD5AF2FCEADD8 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				43DD445D93B34FBAD7CB3FD9F28FE6D4 /* Products */,
 				43673520EC8768124C7DE404129A92D8 /* Targets Support Files */,
@@ -309,87 +200,14 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		E365516E29CCA9B000F3D37E /* Source */ = {
+		D3D225964F32AC647C3F16586B3C79D3 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E36F66D629CCC73500B6F6D7 /* Assets */,
-				E36F66D429CCC70A00B6F6D7 /* Media.xcassets */,
-				E365516F29CCAD8300F3D37E /* KwiksAlert.swift */,
-				E36F66DD29CCC76D00B6F6D7 /* Helper.swift */,
+				5242F5EA3866DB9AACDD73161B4287FE /* KwiksAlert.podspec */,
+				A02A09A25F7199B0DF15D0E7E6C9CB7B /* LICENSE */,
+				2FB97AAA2D5DD3993E989005324CFF84 /* README.md */,
 			);
-			path = Source;
-			sourceTree = "<group>";
-		};
-		E36F66D629CCC73500B6F6D7 /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				E36F66E629CCC8C300B6F6D7 /* fonts */,
-				E36F66E529CCC8BB00B6F6D7 /* icons */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		E36F66E529CCC8BB00B6F6D7 /* icons */ = {
-			isa = PBXGroup;
-			children = (
-				E36F673729CD212D00B6F6D7 /* sound_broken_icon@1x.png */,
-				E36F673829CD212D00B6F6D7 /* sound_broken_icon@2x.png */,
-				E36F673929CD212D00B6F6D7 /* sound_broken_icon@3x.png */,
-				E36F673329CD1D4300B6F6D7 /* hard_fail_icon@1x.png */,
-				E36F673129CD1D4300B6F6D7 /* hard_fail_icon@2x.png */,
-				E36F673229CD1D4300B6F6D7 /* hard_fail_icon@3x.png */,
-				E36F672B29CD1D3E00B6F6D7 /* phone_number_verified_icon@1x.png */,
-				E36F672C29CD1D3E00B6F6D7 /* phone_number_verified_icon@2x.png */,
-				E36F672D29CD1D3E00B6F6D7 /* phone_number_verified_icon@3x.png */,
-				E36F672529CD1D3600B6F6D7 /* money_wallet_icon@1x.png */,
-				E36F672629CD1D3600B6F6D7 /* money_wallet_icon@2x.png */,
-				E36F672729CD1D3700B6F6D7 /* money_wallet_icon@3x.png */,
-				E36F672029CD1D2800B6F6D7 /* warning_hollow_icon@1x.png */,
-				E36F671F29CD1D2800B6F6D7 /* warning_hollow_icon@2x.png */,
-				E36F672129CD1D2800B6F6D7 /* warning_hollow_icon@3x.png */,
-				E36F671A29CD1D2000B6F6D7 /* card_not_supported_icon@1x.png */,
-				E36F671B29CD1D2000B6F6D7 /* card_not_supported_icon@2x.png */,
-				E36F671929CD1D2000B6F6D7 /* card_not_supported_icon@3x.png */,
-				E36F671429CD1D1900B6F6D7 /* email_icon@1x.png */,
-				E36F671529CD1D1900B6F6D7 /* email_icon@2x.png */,
-				E36F671329CD1D1900B6F6D7 /* email_icon@3x.png */,
-				E36F670E29CD1D1400B6F6D7 /* download_cloud_icon@1x.png */,
-				E36F670F29CD1D1400B6F6D7 /* download_cloud_icon@2x.png */,
-				E36F670D29CD1D1400B6F6D7 /* download_cloud_icon@3x.png */,
-				E36F670729CD1D0E00B6F6D7 /* email_not_verified_icon@1x.png */,
-				E36F670829CD1D0E00B6F6D7 /* email_not_verified_icon@2x.png */,
-				E36F670929CD1D0E00B6F6D7 /* email_not_verified_icon@3x.png */,
-				E36F670129CD1D0800B6F6D7 /* file_icon@1x.png */,
-				E36F670329CD1D0800B6F6D7 /* file_icon@2x.png */,
-				E36F670229CD1D0800B6F6D7 /* file_icon@3x.png */,
-				E36F66FD29CD1D0200B6F6D7 /* upload_cloud_icon@1x.png */,
-				E36F66FC29CD1D0200B6F6D7 /* upload_cloud_icon@2x.png */,
-				E36F66FB29CD1D0200B6F6D7 /* upload_cloud_icon@3x.png */,
-				E36F66F529CD1CFB00B6F6D7 /* email_verified_icon@1x.png */,
-				E36F66F629CD1CFB00B6F6D7 /* email_verified_icon@2x.png */,
-				E36F66F729CD1CFB00B6F6D7 /* email_verified_icon@3x.png */,
-				E36F66F129CD1CF300B6F6D7 /* incorrect_password_icon@1x.png */,
-				E36F66EF29CD1CF300B6F6D7 /* incorrect_password_icon@2x.png */,
-				E36F66F029CD1CF300B6F6D7 /* incorrect_password_icon@3x.png */,
-				E36F66DF29CCC86800B6F6D7 /* k_logo_rounded@1x.png */,
-				E36F66E129CCC86800B6F6D7 /* k_logo_rounded@2x.png */,
-				E36F66E029CCC86800B6F6D7 /* k_logo_rounded@3x.png */,
-				E36F673F29CD220A00B6F6D7 /* phone_not_verified@1x.png */,
-				E36F673D29CD220A00B6F6D7 /* phone_not_verified@2x.png */,
-				E36F673E29CD220A00B6F6D7 /* phone_not_verified@3x.png */,
-			);
-			path = icons;
-			sourceTree = "<group>";
-		};
-		E36F66E629CCC8C300B6F6D7 /* fonts */ = {
-			isa = PBXGroup;
-			children = (
-				E36F66E929CCCB4500B6F6D7 /* SegoeBoldItalic.ttf */,
-				E36F66E729CCCB4500B6F6D7 /* SegoeBold.ttf */,
-				E36F66E829CCCB4500B6F6D7 /* SegoeItalic.ttf */,
-				E36F66EA29CCCB4500B6F6D7 /* SegoeRegular.ttf */,
-			);
-			path = fonts;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		F4850DA2F8C2738FDC6C66DD0375FD43 /* Pods-KwiksAlert_Tests */ = {
@@ -427,11 +245,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FFC61BC0A77912AC5D06F9CFFC562EB6 /* Headers */ = {
+		CD9C2B72AC3DD5E091B3FE975676501C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D84AE8CA45365BDA1FEACE9959EC1C0 /* KwiksAlert-umbrella.h in Headers */,
+				0997717320F41BD2222CF52B257ADD00 /* KwiksAlert-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -440,12 +258,12 @@
 /* Begin PBXNativeTarget section */
 		3EBF268ABF29191A26D4238537361540 /* KwiksAlert */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBF0D60AA9A6850FF9C4FD0B688B695F /* Build configuration list for PBXNativeTarget "KwiksAlert" */;
+			buildConfigurationList = 48BF8953947B0AC399CEAAAB07DF3438 /* Build configuration list for PBXNativeTarget "KwiksAlert" */;
 			buildPhases = (
-				FFC61BC0A77912AC5D06F9CFFC562EB6 /* Headers */,
-				275794C3B2DF24E85EE10E06011135BA /* Sources */,
-				00C6277D7D7250A9C4718CBA1A7D8522 /* Frameworks */,
-				B3672C73FB2A894303520954CCF77DF9 /* Resources */,
+				CD9C2B72AC3DD5E091B3FE975676501C /* Headers */,
+				A79F919BB21C6EA607F075F04C00E6E2 /* Sources */,
+				3BF197B06DF6E8F55E969257C078B1D3 /* Frameworks */,
+				864256FCB4153B34D705C21CC76272DE /* Resources */,
 			);
 			buildRules = (
 			);
@@ -453,7 +271,7 @@
 			);
 			name = KwiksAlert;
 			productName = KwiksAlert;
-			productReference = 3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert.framework */;
+			productReference = 3BC424B20AEB5EB79C36E95C88E17EA6 /* KwiksAlert */;
 			productType = "com.apple.product-type.framework";
 		};
 		B95B8CD2D08A6F32C5EFE423A179A88C /* Pods-KwiksAlert_Example */ = {
@@ -468,11 +286,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				127908DF367C33647D3C1FF6A43C8097 /* PBXTargetDependency */,
+				2D098F7CEA29789D886097A070768F69 /* PBXTargetDependency */,
 			);
 			name = "Pods-KwiksAlert_Example";
 			productName = Pods_KwiksAlert_Example;
-			productReference = DEDB649949671C7CA89EE120740D948D /* Pods_KwiksAlert_Example.framework */;
+			productReference = DEDB649949671C7CA89EE120740D948D /* Pods-KwiksAlert_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		E3ACD37D97C2417D79289964593C806B /* Pods-KwiksAlert_Tests */ = {
@@ -487,11 +305,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				A852AAB203420A677A1D5E925A80B8A0 /* PBXTargetDependency */,
+				E754AFEF37B8A5293D52F94FA5556D70 /* PBXTargetDependency */,
 			);
 			name = "Pods-KwiksAlert_Tests";
 			productName = Pods_KwiksAlert_Tests;
-			productReference = 8335D3A40A20C40D550841DF479A05F5 /* Pods_KwiksAlert_Tests.framework */;
+			productReference = 8335D3A40A20C40D550841DF479A05F5 /* Pods-KwiksAlert_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -501,12 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1400;
-				TargetAttributes = {
-					3EBF268ABF29191A26D4238537361540 = {
-						LastSwiftMigration = 1400;
-					};
-				};
+				LastUpgradeCheck = 1300;
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -543,60 +356,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B3672C73FB2A894303520954CCF77DF9 /* Resources */ = {
+		864256FCB4153B34D705C21CC76272DE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E36F670529CD1D0800B6F6D7 /* file_icon@3x.png in Resources */,
-				E36F66E329CCC86800B6F6D7 /* k_logo_rounded@3x.png in Resources */,
-				E36F674229CD220A00B6F6D7 /* phone_not_verified@1x.png in Resources */,
-				E36F670A29CD1D0E00B6F6D7 /* email_not_verified_icon@1x.png in Resources */,
-				E36F66F329CD1CF300B6F6D7 /* incorrect_password_icon@3x.png in Resources */,
-				E36F66EE29CCCB4500B6F6D7 /* SegoeRegular.ttf in Resources */,
-				E36F673C29CD212D00B6F6D7 /* sound_broken_icon@3x.png in Resources */,
-				E36F671629CD1D1A00B6F6D7 /* email_icon@3x.png in Resources */,
-				E36F671129CD1D1400B6F6D7 /* download_cloud_icon@1x.png in Resources */,
-				E36F673029CD1D3E00B6F6D7 /* phone_number_verified_icon@3x.png in Resources */,
-				E36F66EB29CCCB4500B6F6D7 /* SegoeBold.ttf in Resources */,
-				E36F672829CD1D3700B6F6D7 /* money_wallet_icon@1x.png in Resources */,
-				E36F66EC29CCCB4500B6F6D7 /* SegoeItalic.ttf in Resources */,
-				E36F66E429CCC86800B6F6D7 /* k_logo_rounded@2x.png in Resources */,
-				E36F66E229CCC86800B6F6D7 /* k_logo_rounded@1x.png in Resources */,
-				E36F673529CD1D4300B6F6D7 /* hard_fail_icon@3x.png in Resources */,
-				E36F672A29CD1D3700B6F6D7 /* money_wallet_icon@3x.png in Resources */,
-				E36F670029CD1D0200B6F6D7 /* upload_cloud_icon@1x.png in Resources */,
-				E36F672E29CD1D3E00B6F6D7 /* phone_number_verified_icon@1x.png in Resources */,
-				E36F671229CD1D1400B6F6D7 /* download_cloud_icon@2x.png in Resources */,
-				E36F670629CD1D0800B6F6D7 /* file_icon@2x.png in Resources */,
-				E36F66F929CD1CFB00B6F6D7 /* email_verified_icon@2x.png in Resources */,
-				E36F66FF29CD1D0200B6F6D7 /* upload_cloud_icon@2x.png in Resources */,
-				E36F672929CD1D3700B6F6D7 /* money_wallet_icon@2x.png in Resources */,
-				E36F66F829CD1CFB00B6F6D7 /* email_verified_icon@1x.png in Resources */,
-				E36F671729CD1D1A00B6F6D7 /* email_icon@1x.png in Resources */,
-				E36F673A29CD212D00B6F6D7 /* sound_broken_icon@1x.png in Resources */,
-				E36F671E29CD1D2000B6F6D7 /* card_not_supported_icon@2x.png in Resources */,
-				E36F672F29CD1D3E00B6F6D7 /* phone_number_verified_icon@2x.png in Resources */,
-				E36F672429CD1D2800B6F6D7 /* warning_hollow_icon@3x.png in Resources */,
-				E36F674029CD220A00B6F6D7 /* phone_not_verified@2x.png in Resources */,
-				E36F670C29CD1D0E00B6F6D7 /* email_not_verified_icon@3x.png in Resources */,
-				E36F671C29CD1D2000B6F6D7 /* card_not_supported_icon@3x.png in Resources */,
-				E36F674129CD220A00B6F6D7 /* phone_not_verified@3x.png in Resources */,
-				E36F66F229CD1CF300B6F6D7 /* incorrect_password_icon@2x.png in Resources */,
-				E36F672329CD1D2800B6F6D7 /* warning_hollow_icon@1x.png in Resources */,
-				E36F673429CD1D4300B6F6D7 /* hard_fail_icon@2x.png in Resources */,
-				E36F66ED29CCCB4500B6F6D7 /* SegoeBoldItalic.ttf in Resources */,
-				E36F672229CD1D2800B6F6D7 /* warning_hollow_icon@2x.png in Resources */,
-				E36F66F429CD1CF300B6F6D7 /* incorrect_password_icon@1x.png in Resources */,
-				E36F673629CD1D4300B6F6D7 /* hard_fail_icon@1x.png in Resources */,
-				E36F66D529CCC70A00B6F6D7 /* Media.xcassets in Resources */,
-				E36F66FE29CD1D0200B6F6D7 /* upload_cloud_icon@3x.png in Resources */,
-				E36F670429CD1D0800B6F6D7 /* file_icon@1x.png in Resources */,
-				E36F670B29CD1D0E00B6F6D7 /* email_not_verified_icon@2x.png in Resources */,
-				E36F671029CD1D1400B6F6D7 /* download_cloud_icon@3x.png in Resources */,
-				E36F671829CD1D1A00B6F6D7 /* email_icon@2x.png in Resources */,
-				E36F671D29CD1D2000B6F6D7 /* card_not_supported_icon@1x.png in Resources */,
-				E36F673B29CD212D00B6F6D7 /* sound_broken_icon@2x.png in Resources */,
-				E36F66FA29CD1CFB00B6F6D7 /* email_verified_icon@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -619,72 +382,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		275794C3B2DF24E85EE10E06011135BA /* Sources */ = {
+		A79F919BB21C6EA607F075F04C00E6E2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E365517029CCAD8300F3D37E /* KwiksAlert.swift in Sources */,
-				7B61B76F62199F9CE9B6C24C79A0470D /* KwiksAlert-dummy.m in Sources */,
-				E36F66DE29CCC76D00B6F6D7 /* Helper.swift in Sources */,
+				2C6CC725A2FA5E2EE8DEAFEEBC6EB4C8 /* Helper.swift in Sources */,
+				C3F581A66A34762E8FAB856DDF342AD3 /* KwiksAlert.swift in Sources */,
+				43520A197B58321ADDD1F7043AB75C04 /* KwiksAlert-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		127908DF367C33647D3C1FF6A43C8097 /* PBXTargetDependency */ = {
+		2D098F7CEA29789D886097A070768F69 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = KwiksAlert;
 			target = 3EBF268ABF29191A26D4238537361540 /* KwiksAlert */;
-			targetProxy = BB47CAC568ECEC51C3CACEFC4C84F011 /* PBXContainerItemProxy */;
+			targetProxy = CD4BF36242A235E344E4497D5F76F811 /* PBXContainerItemProxy */;
 		};
-		A852AAB203420A677A1D5E925A80B8A0 /* PBXTargetDependency */ = {
+		E754AFEF37B8A5293D52F94FA5556D70 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-KwiksAlert_Example";
 			target = B95B8CD2D08A6F32C5EFE423A179A88C /* Pods-KwiksAlert_Example */;
-			targetProxy = 103955E928185EA9907C124442F89446 /* PBXContainerItemProxy */;
+			targetProxy = 7679EBC9C0060E19E485A55A1EA76BE4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		1204757E51ACE2156B055761BD9DFD93 /* Debug */ = {
+		37A2FC3675E262EDA84CEFCE7F3AE3D8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6C0C10DD71D0926A19B64CAA7CA1A3A1 /* KwiksAlert.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KwiksAlert/KwiksAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KwiksAlert/KwiksAlert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KwiksAlert/KwiksAlert.modulemap";
-				PRODUCT_MODULE_NAME = KwiksAlert;
-				PRODUCT_NAME = KwiksAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		516EBE6ACCFCBDA8EF14FB349E219A01 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6D6D6FFB11D3331828C68DE3D0D856F5 /* Pods-KwiksAlert_Example.debug.xcconfig */;
+			baseConfigurationReference = E57AFA32B3F904A03CC2ACDEDEFA8F94 /* Pods-KwiksAlert_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -708,16 +439,50 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6CEC667790518110020C3ABA0132EF01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 077635BC1FBF76751D9D94EF634EF059 /* KwiksAlert.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KwiksAlert/KwiksAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KwiksAlert/KwiksAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KwiksAlert/KwiksAlert.modulemap";
+				PRODUCT_MODULE_NAME = KwiksAlert;
+				PRODUCT_NAME = KwiksAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5CFC4BF94A8B2268107EF9F05592D348 /* Release */ = {
+		85CA6BE569AF4F73F08B21D88A2A1071 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A4A0E37C19D2449ABFD5C59464E3B264 /* Pods-KwiksAlert_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -747,7 +512,7 @@
 			};
 			name = Release;
 		};
-		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+		90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -782,136 +547,6 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				MTL_ENABLE_DEBUG_INFO = NO;
-				MTL_FAST_MATH = YES;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 5.0;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Release;
-		};
-		89876ADF543D63C866E095A4BCB3AD8F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C28015AB0D034619A794F686E5496C30 /* KwiksAlert.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/KwiksAlert/KwiksAlert-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/KwiksAlert/KwiksAlert-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/KwiksAlert/KwiksAlert.modulemap";
-				PRODUCT_MODULE_NAME = KwiksAlert;
-				PRODUCT_NAME = KwiksAlert;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		9778ACD37B3AA198C1F20368AF03BC15 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E57AFA32B3F904A03CC2ACDEDEFA8F94 /* Pods-KwiksAlert_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-KwiksAlert_Example/Pods-KwiksAlert_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-KwiksAlert_Example/Pods-KwiksAlert_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -943,11 +578,141 @@
 			};
 			name = Debug;
 		};
-		D5CFEA043420FC7342417BDF8DC4B9D6 /* Debug */ = {
+		9553C89E183877A5CB2F3C6801BEC129 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		A112BEC78D2FE73CF67FBCF8EAD947D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 689E5D5B269E65E3311D6EA6759074A6 /* KwiksAlert.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KwiksAlert/KwiksAlert-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KwiksAlert/KwiksAlert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KwiksAlert/KwiksAlert.modulemap";
+				PRODUCT_MODULE_NAME = KwiksAlert;
+				PRODUCT_NAME = KwiksAlert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B6C181B5C8AFD9F1571162D84C7F08B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6D6FFB11D3331828C68DE3D0D856F5 /* Pods-KwiksAlert_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KwiksAlert_Example/Pods-KwiksAlert_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KwiksAlert_Example/Pods-KwiksAlert_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B910B7019EA239BA105CEB8896A7A4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A31D4AC736427D1B32752B8153ECCA7C /* Pods-KwiksAlert_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -982,8 +747,8 @@
 		15BE27B32FF04043114871D2CCC10C92 /* Build configuration list for PBXNativeTarget "Pods-KwiksAlert_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				516EBE6ACCFCBDA8EF14FB349E219A01 /* Debug */,
-				9778ACD37B3AA198C1F20368AF03BC15 /* Release */,
+				B6C181B5C8AFD9F1571162D84C7F08B1 /* Debug */,
+				37A2FC3675E262EDA84CEFCE7F3AE3D8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -991,8 +756,17 @@
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
-				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+				90D4D09BCB6A4660E43ACBE9ECB6FE9A /* Debug */,
+				9553C89E183877A5CB2F3C6801BEC129 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48BF8953947B0AC399CEAAAB07DF3438 /* Build configuration list for PBXNativeTarget "KwiksAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6CEC667790518110020C3ABA0132EF01 /* Debug */,
+				A112BEC78D2FE73CF67FBCF8EAD947D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1000,17 +774,8 @@
 		5B8FE939F37A2F0813284E9A9E07C1E8 /* Build configuration list for PBXNativeTarget "Pods-KwiksAlert_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D5CFEA043420FC7342417BDF8DC4B9D6 /* Debug */,
-				5CFC4BF94A8B2268107EF9F05592D348 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		DBF0D60AA9A6850FF9C4FD0B688B695F /* Build configuration list for PBXNativeTarget "KwiksAlert" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1204757E51ACE2156B055761BD9DFD93 /* Debug */,
-				89876ADF543D63C866E095A4BCB3AD8F /* Release */,
+				B910B7019EA239BA105CEB8896A7A4F1 /* Debug */,
+				85CA6BE569AF4F73F08B21D88A2A1071 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
