@@ -1,8 +1,8 @@
 {
   "name": "KwiksAlert",
   "version": "0.1.1",
-  "summary": "Welcome to KwiksAlert. KwiksAlert was designed as a simple solution to manage all client facing popups for error & success handling",
   "description": "TODO: Add long description of the pod here.",
+  "summary": "Welcome to KwiksAlert. KwiksAlert was designed as a simple solution to manage all client facing popups.",
   "homepage": "https://github.com/NoImpactNoIdea/KwiksAlert.git",
   "license": {
     "type": "MIT",
@@ -18,5 +18,7 @@
   "platforms": {
     "ios": "15.0"
   },
-  "source_files": "Source/**/*.swift"
+  "swift_versions": "5.7",
+  "source_files": "Source/**/*.swift",
+  "swift_version": "5.7"
 }
