@@ -19,7 +19,7 @@ private final class BundleToken {}
 func registerFont(with fontName: String) {
     guard let url = Bundle(for: BundleToken.self).url(forResource: fontName, withExtension: nil),
           CTFontManagerRegisterFontsForURL(url as CFURL, .process, nil) else {
-        fatalError("Failed to register font")
+        fatalError("Failed to register fonts")
     }
 }
 
