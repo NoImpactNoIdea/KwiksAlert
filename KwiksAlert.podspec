@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/26388491/KwiksAlert'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KWIKS CTO' => 'charlie@kwiks.com' }
-  s.source           = { :git => 'https://github.com/26388491/KwiksAlert.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/NoImpactNoIdea/KwiksAlert.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '15.0'
 
@@ -38,3 +38,4 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 end
+
