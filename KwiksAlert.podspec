@@ -29,7 +29,7 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '15.0'
 
 #  s.source_files = 'Classes/**/*.swift'
-  s.source_files = 'KwiksAlert/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
   # s.resource_bundles = {KwiksAlert/Classes/**/*
   #   'KwiksAlert' => ['KwiksAlert/Assets/*.png']
   # }
