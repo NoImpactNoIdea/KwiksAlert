@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'KwiksAlert'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'Welcome to KwiksAlert. KwiksAlert was designed as a simple solution to manage all client facing popups.'
 
 # This description is used to generate tags and improve search results.
